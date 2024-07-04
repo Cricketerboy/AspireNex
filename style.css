@@ -432,3 +432,94 @@ body {
     transform: translateX(-50%) scale(1);
     top: -1.8rem;
 }
+@media only screen and (max-width: 480px) {
+    *{
+        /* font-size: 11px; */
+    }
+    .wrapper {
+        padding: 0.5rem; /* Further decrease padding for smaller screens */
+    }
+.btn{
+    width: 10.5rem;
+}
+    .book .book-page{
+        padding: 0px;
+    }
+
+    .book-page .page-front{
+        padding: 0.5rem 1rem;
+    }
+    .profile-page{
+        font-size: 13px;
+        width: 100%;
+
+    }
+    .profile-page p{
+        padding: 0px 10px;
+    }
+    .workeduc-box .workeduc-content {
+        font-size: 10px;
+    }
+
+    .profile-page h1 {
+        font-size: 1.6rem; 
+    }
+
+    .profile-page img{
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .profile-page .social-media a {
+        width: 1.8rem; 
+        height: 1.8rem;
+        font-size: 0.9rem; 
+    }
+
+
+.page-front{
+    font-size: 10px;
+}
+
+    .services-content{
+        height: 6.5rem;
+        font-size: .5rem;
+       
+    }
+    .services-box .btn{
+        font-size: 5px;
+        width: 3rem;
+        height: 2rem;
+    }
+
+    .services-content i{
+        font-size: 0rem;
+    }
+    .page-back{
+        font-size: 12px;
+    }
+
+    .skills-content .content span{
+        height: 2.5rem;
+        width: 2.2rem;
+        font-size: 6px;
+    }
+
+    .skills-content .content span i{
+        font-size: 1rem;
+    }
+    .contact-box .btn {
+        width: 6rem;
+        font-size: 12px;
+    }
+
+    .portfolio-box .img-box {
+        height: 8rem;
+    }
+
+    .contact-box .field {
+        padding: 0.6rem;
+        font-size: 0.9rem; 
+    }
+}
+
