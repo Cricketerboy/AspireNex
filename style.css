@@ -523,3 +523,59 @@ body {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%; /* Adjust width to fit smaller screens */
+        height: auto; /* Allow height to adjust based on content */
+        padding: 1rem; /* Adjust padding as needed */
+    }
+    
+    .book .book-page {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+    
+    .profile-page {
+        font-size: 1rem; /* Adjust font size */
+    }
+    
+    .profile-page img {
+        width: 120px; /* Adjust image size */
+        height: 120px; /* Adjust image size */
+    }
+    
+    .profile-page .social-media a {
+        width: 2rem; /* Adjust social media icon size */
+        height: 2rem; /* Adjust social media icon size */
+        font-size: 0.8rem; /* Adjust font size of social media icons */
+    }
+    
+    .services-box .services-content {
+        flex: 1 1 8rem; /* Adjust service box width */
+    }
+    
+    .services-content {
+        height: 5rem; /* Adjust height of service boxes */
+        font-size: 0.8rem; /* Adjust font size of service boxes */
+    }
+    
+    .skills-content .content span {
+        width: 4rem; /* Adjust skill box width */
+        height: 3rem; /* Adjust skill box height */
+        font-size: 0.8rem; /* Adjust font size of skill boxes */
+    }
+    
+    .contact-box .field {
+        font-size: 0.8rem; /* Adjust font size of input fields */
+    }
+    
+    .portfolio-box .img-box {
+        height: 10rem; /* Adjust height of portfolio images */
+    }
+    
+    .contact-box .btn {
+        width: 5rem; /* Adjust width of buttons */
+        font-size: 0.8rem; /* Adjust font size of buttons */
+    }
+}
+
+
